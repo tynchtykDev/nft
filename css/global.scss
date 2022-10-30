@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+a{
+  text-decoration: none;
+
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+@mixin swipe {
+  .swiper {
+    width: 100%;
+    height: 100%;
+
+
+  }
+}
+

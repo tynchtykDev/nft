@@ -1,0 +1,416 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+  z-index: 100;
+  background: #2a2828;
+  position: fixed;
+  padding: 10px 0;
+}
+#header .nav--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .nav--general__block {
+  padding-left: 20px;
+}
+#header .nav--general__see {
+  position: relative;
+}
+#header .nav--general__see input {
+  width: 350px;
+  height: 51px;
+  border-radius: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  outline: none;
+  background: #2a2828;
+  color: white;
+  padding-left: 20px;
+}
+#header .nav--general__see img {
+  position: absolute;
+  right: 10px;
+  top: 16px;
+}
+#header .nav--general__title a {
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.4s;
+}
+#header .nav--general__title a:hover {
+  transform: scale(1.1);
+  color: gold;
+}
+#header .nav--general__img img {
+  padding: 0 10px;
+}
+
+#hero {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+}
+#hero .hero--left {
+  text-align: center;
+}
+#hero .hero--left h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 116px;
+  color: #FFFFFF;
+}
+#hero .hero--left__one {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  color: #FFFFFF;
+  padding-bottom: 150px;
+}
+#hero .hero--left p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F1B864;
+}
+#hero .hero--man__ones {
+  position: absolute;
+}
+#hero .hero--pont__tenth {
+  position: relative;
+}
+
+#mick {
+  padding: 74px 0 140px 0;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  width: 100%;
+}
+#mick .mick--rom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mick .mick--rom a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 10px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+#mick .mick--pap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mick .mick--pap img {
+  margin: 10px;
+}
+#mick .mick--rep h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #F1B864;
+}
+#mick .mick--rep h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 20px 0;
+  color: #FFFFFF;
+}
+#mick .mick .swiper {
+  width: 100%;
+  height: 100%;
+}
+#mick .mick .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#mick .mick .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#prat {
+  padding: 74px 0 140px 0;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  width: 100%;
+}
+#prat .gena--pit h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #F1B864;
+}
+#prat .gena--pit h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+#prat .gena--woon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+#prat .gena--nic {
+  width: 311px;
+  height: 468px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+#prat .gena--text {
+  width: 100%;
+  height: 0;
+  margin: 90px 0;
+  border: 1px solid #A0A0A0;
+}
+#prat .gena--nup {
+  width: 231px;
+  height: 58px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+}
+#prat .gena--nup h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#prat .gena--tam {
+  width: 161px;
+  height: 63px;
+  background: #FE8B46;
+  border: 1px solid #FFFFFF;
+  border-radius: 38px;
+}
+#prat .gena--tam h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#prat .gena--nop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#prat .gena--nic__title {
+  display: flex;
+}
+#prat .gena--nic__title p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+#prat .gena--nic__title h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#prat .gena--nic__title--tnt {
+  margin: 0 60px;
+}
+#prat .gena--nic__title--tnt a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#prat .gena--nic__title--tnt h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #FEAE51;
+}
+#prat .gena--nup {
+  width: 231px;
+  height: 58px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+}
+
+#raitta {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+}
+#raitta .zer--lili {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#raitta .zer--lili p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #F1B864;
+  text-align: center;
+}
+#raitta .zer--lili h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#raitta .zer--lili h2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #F7A659;
+  text-align: center;
+}
+#raitta .zer--all {
+  display: flex;
+  flex-wrap: wrap;
+}
+#raitta .zer--all__pall {
+  margin: 10px 10px;
+  width: 411px;
+  height: 91px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#raitta .zer--all__pall h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#raitta .zer--all__pall--one h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#raitta .zer--all__pall--one p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-top: 5px;
+}
+#raitta .zer--all__pall--ool a {
+  font-weight: 500;
+  font-size: 13px;
+  color: #21D605;
+}
+#raitta .zer--all__pall--ool h5 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #DC9752;
+  padding-top: 9px;
+}
+
+#situation {
+  background-color: rgb(0, 0, 0);
+}
+#situation .give--tant {
+  display: flex;
+  justify-content: center;
+}
+#situation .give--tant button {
+  margin-top: 120px;
+  width: 210px;
+  height: 64px;
+  border: 1px solid #FFFFFF;
+  border-radius: 36px;
+  background: transparent;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#situation .give--root h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  margin: 150px;
+  left: 30px;
+  margin-top: -100px;
+  color: #FFFFFF;
+}
+#situation .give--wap h4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #F1B864;
+}
+#situation .give--wap h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+#situation .give--root img {
+  padding: 0 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
